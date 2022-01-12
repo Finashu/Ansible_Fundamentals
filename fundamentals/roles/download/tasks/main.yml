@@ -1,0 +1,6 @@
+---
+# tasks file for download
+- name: Download image form internet with controller
+  win_get_url:
+      url: https://geekflare.com/wp-content/uploads/2019/06/ansible-1200x385.jpg
+      dest: C:\Users\Administrator.DEMO\Desktop

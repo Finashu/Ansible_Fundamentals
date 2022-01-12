@@ -1,0 +1,5 @@
+--- 
+- name: download a file form internet to the windows machine
+  hosts: jumphost
+  roles:
+    - download
